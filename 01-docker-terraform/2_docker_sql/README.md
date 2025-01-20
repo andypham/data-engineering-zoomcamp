@@ -10,7 +10,13 @@ All the commands from the video
 Downloading the data
 
 ```bash
-wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz 
+wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-10.csv.gz
+```
+
+You will also need the dataset with zones:
+
+```bash
+wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv
 ```
 
 > Note: now the CSV data is stored in the `csv_backup` folder, not `trip+date` like previously
